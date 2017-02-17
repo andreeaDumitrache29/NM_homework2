@@ -1,0 +1,14 @@
+	Iterative
+Deschid fisierul si citesc datele de intrare: numarul de noduri si fiecare nod cu vecinii sai. Construiesc apoi matricea A, matrice de adiacenta cu 0 pe diagonala, si in functie de valorile din ea construiesc matricea M din enunt. Apoi calculez vectorul PageRank ca in formula din enunt, folosind conditia de oprire specificata
+	
+	Algebraic
+Deschid fisierul si citesc datele de intrare: numarul de noduri si fiecare nod cu vecinii sai. Construiesc apoi matricea A, matrice de adiacenta cu 0 pe diagonala, si in functie de valorile din ea construiesc matricea M din enunt. Folosind algoritmul Gram Schmidt calculez inversa matricei T (In - d*M), iar apoi calculez vectorul PageRank conform enuntului.
+	
+	Power
+Deschid fisierul si citesc datele de intrare: numarul de noduri si fiecare nod cu vecinii sai. Construiesc apoi matricea A, matrice de adiacenta cu 0 pe diagonala, si in functie de valorile din ea construiesc matricea M din enunt. Construiesc apoi matricea P al carei vector propriu trebuie aflat si ,pornid cu o valorare estimativa initiala, aplic algoritmul de la metoda puterii directe pentru a afla vectorul propriu specific valorii proprii dominante. La final normez vectorul obtinut folosind norma pentru a avea suma elementelor 1.
+	
+	Apartenenta
+Functia calculeaza gradul de apartenenta al unui element conform formulei din enunt. Coeficientii a si b i-am determinat din conditia de continuitate a functiei.
+
+	PageRank
+Deschid fisierul si citesc datele de intrare: numarul de noduri si fiecare nod cu vecinii sai pentru a ajunge la sfarsit si a citii cele doua valori pentru functia de apartenenta. Construiesc vectorii de PageRank pentru cele 3 metode si ii afisez in fisier. Sortez apoi vectorul dat pe metoda Algebraic folosind bubble sort. Apoi pentru fiecare element din vectorul sortat afisez indicele, il caut in vectorul initial, ii afisez indicele din vectorul nesortat si ii setez valoarea -infinit pentru a evita sa il gasesc de 2 ori in caz de duplicate. Apoi ii calculez gradul de apartenenta si il afisez.
